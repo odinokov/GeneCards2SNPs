@@ -29,7 +29,7 @@ for (gene_to_read in 1:number_of_records) {
   gene <- d$Gene.Symbol[gene_to_read]
   gene <- as.character(gene)
   # show some progress
-  cat("Doing:", gene, "\tTotal progress:", gene_to_read%/%number_of_records*100, "%\n")
+  cat("Doing:", gene, "\tTotal progress:", 100*gene_to_read%/%number_of_records, "%\n")
   # gene symbol to Ensembl ID
   response <- GET(sprintf("http://%srest.ensembl.org/xrefs/symbol/%s/%s?content-type=application/json",
                           version, species, gene))
