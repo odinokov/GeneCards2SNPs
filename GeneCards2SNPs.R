@@ -3,6 +3,8 @@
 ## Get the genes list first: http://www.genecards.org/Search/Keyword?queryString=membrane
 #########################################################################################
 
+# install.packages("XML")
+# install.packages("scholar", dependencies=T)
 # install.packages("stringi", repos="http://cran.rstudio.com/", dependencies=TRUE)
 library(stringi)
 # source("http://bioconductor.org/biocLite.R")
