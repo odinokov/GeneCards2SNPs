@@ -1,6 +1,6 @@
 #########################################################################################
 ## The R script to retrieve SNP rs IDs for genes exported from GeneCards
-## Get the genes list first: http://www.genecards.org/Search/Keyword?queryString=membrane
+## Get the genes list first: http://www.genecards.org/Search/Keyword?queryString=PUFA
 #########################################################################################
 
 # install.packages("XML")
